@@ -1,6 +1,6 @@
 function getElementWidth(content,padding,border){
     const total = content + padding * 2 + border * 2 
-    console.log(`${total} px ` );
+    return `${total} px `
 }
 
 getElementWidth(20,21,22)
