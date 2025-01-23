@@ -1,9 +1,12 @@
 function makeTransaction(quantity, pricePerDroid) {
-return `You ordered ${quantity} droids worth ${quantity * pricePerDroid} credits!`
+    return `You ordered ${quantity} droids worth ${quantity * pricePerDroid} credits!`
 
 }
 
-makeTransaction(10, 20)
-makeTransaction(25,32)
-makeTransaction(511,23)
+console.log(makeTransaction(5, 3000))
+console.log(makeTransaction(3, 1000))
+console.log(makeTransaction(10, 500))
+
+
+
 
